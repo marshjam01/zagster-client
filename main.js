@@ -1,5 +1,5 @@
 $(updateView)
 
 function updateView(){
-    alert("Using jQuery!")
+    alert("I hit the CTRL key but I'm still not in control! ")
 }
