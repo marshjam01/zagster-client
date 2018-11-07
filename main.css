@@ -1,5 +1,10 @@
 body {
     font-family: "HelveticaNeue", "Arial", sans-serif;
-    font-size: 24 point;
-    font-family:  monospace 
-  }
+}
+h2{
+    font-size: 4me;
+    margin:0px;
+    }
+    p{
+      margin:0px;
+    }
