@@ -3,7 +3,6 @@ $(updateView)
 function updateView() {
   $.getJSON(BASE_URL + "/rides/count", updateRideCount)
 }
-alert("HI")
 function updateRideCount(data) {
   numberOfRides = data.count
   $("h2#rideCount").html(numberOfRides)
