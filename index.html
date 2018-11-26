@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Zagster with JS</title>
+    <title>Zagster Bikes in Bend</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -19,10 +19,10 @@
     var myChart = new Chart(ctx, {
         type: 'horizontalBar',
         data: {
-            labels: ["January", "Febuary", "March", "April", "May", "June","July","August","September","October","November","December"],
-            datasets: [{
-                label: 'Total Rides',
-                data: [12, 19, 23, 5, 2, 3, 14, 18, 25, 17, 22, 6],
+            labels: ["G5", "Columbia/Simpson", "Drake Park", "Galveston", "GRC", "Old Mill", "OSU-Cascades", "Ten Barrel"],
+        datasets: [{
+            label: 'Total Count of Rides Per Station',
+            data: [2294, 1016, 2414, 400, 1625, 2813, 4018,  492],
                 backgroundColor: [
                     'rgba(0, 0, 0, 0.2)',
                     'rgba(89, 162, 235, 0.2)',
@@ -69,7 +69,7 @@
     });
     </script>
     <h2 id="rideCount">Bend Oregon</h2>
-    <P>Total number of rides per month</P>
+    <P>Total number of rides per station</P>
     
     
 </body>
