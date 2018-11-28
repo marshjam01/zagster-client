@@ -41,7 +41,7 @@ img {
   
   .focus circle {
   fill: none;
-  stroke: steelblue;
+  stroke: black;
 }
 #chartContainer{
     width: 60%;

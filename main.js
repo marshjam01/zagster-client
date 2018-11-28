@@ -4,18 +4,16 @@ var rideData = []
 $(updateView)
 
 
-
-
 function updateView() {
-    $.getJSON(BASE_URL + "/rides/count", updateRideCount)
-    $.getJSON(BASE_URL + "/rides/count/per_month", getData)
+    $.getJSON(BASE_URL + "/rides/count", GetSome)
+    $.getJSON(BASE_URL + "/rides/count/per_month", ThisRocks)
 }
 
-function updateRideCount(data) {
+function GetSome(data) {
     numberOfRides = data.count
     $("h2#rideCount").html(numberOfRides)
 }
-function getData(data){
+function ThisRocks(data){
   rideData = data;
   
 for (var i = 0; i <=3; ++i){
