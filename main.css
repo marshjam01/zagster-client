@@ -1,10 +1,51 @@
 body {
     font-family: "HelveticaNeue", "Arial", sans-serif;
-}
+    background: white;
+    background-position: center top;
+    background-image: url("https://i.pinimg.com/originals/be/0a/4e/be0a4e1500127ea8ddfbae0335d14d2f.gif");
+    background-size: 900px 900px; 
+  }
+h1{
+    color: rgb(17, 15, 15);
+    text-align: center;
+} 
 h2{
-    font-size: 4me;
-    margin:0px;
-    }
-    p{
-      margin:0px;
-    }
+    color:black;
+    text-align: center;
+}
+p{
+    color: Black;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.line {
+    fill: none;
+    stroke: #ffab00;
+    stroke-width: 3;
+}
+  
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.dot {
+    fill: #000000;
+    stroke: #000000;
+}
+  
+  .focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+#chartContainer{
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    border: 2px black;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Zagster Bikes in Bend</title>
+    <title>Zagster with JS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -12,67 +12,17 @@
 </head>
 <body>
     
-    <h1>Zagster Data</h1>
-    <center><div id="chartContainer"><canvas id="myChart"></canvas></div></center>
-    <script>
-    var ctx = document.getElementById("myChart").getContext('2d');
-    var myChart = new Chart(ctx, {
-        type: 'horizontalBar',
-        data: {
-            labels: ["G5", "Columbia/Simpson", "Drake Park", "Galveston", "GRC", "Old Mill", "OSU-Cascades", "Ten Barrel"],
-        datasets: [{
-            label: 'Total Count of Rides Per Station',
-            data: [2294, 1016, 2414, 400, 1625, 2813, 4018,  492],
-                backgroundColor: [
-                    'rgba(0, 0, 0, 0.2)',
-                    'rgba(89, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgba(255, 159, 64, 0.2)',
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgba(255, 159, 64, 0.2)'
-                ],
-                borderColor: [
-                    'rgba(255,99,132,1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)',
-                    'rgba(255, 159, 64, 1)',
-                    'rgba(255,99,132,1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)',
-                    'rgba(255, 159, 64, 1)',
-                    
-                    
+    <h1>Zagster Data Visual</h1>
+    <P> By incorporating a plethora of programming and mark up language skills including HTML, CSS, JavaScript, jquery, and SQL I was able to complete this project.
+        I pulled data from a server and incorporated it into the data visualization that you see here.
+The result is a graph that shows the entire number of rides per month beginning in September 2016 and ending in October 2018. 
+Overall this project has given me glismp into the life a professional front-end developer. 
 
-                ],
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero:true
-                    }
-                }]
-            }
-        }
-    });
-    </script>
-    <h2 id="rideCount">Bend Oregon</h2>
-    <P>Total number of rides per station</P>
-    
-    
+</P>
+    <div id="chartContainer"><canvas id="myChart"></canvas></div>
+     
 </body>
 </html>
+
 
 
