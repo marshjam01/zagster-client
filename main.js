@@ -33,7 +33,7 @@ var myChart = new Chart(ctx, {
         labels: ["Sep 2016", "Oct 2016", "Nov 2016", "Dec 2016", "Jan 2017","Feb 2017", "Mar 2017", "Apr 2017", "Mar 2017", "Jun 2017", "Jul 2017", "Aug 2017", "Sep 2017", "Oct 2017", "Nov 2017", "Dec 2017", 
         "Jan 2018", "Feb 2018", "Mar 2018", "Apr 2018", "May 2018", "Jun 2018", "Jul 2018", "Aug 2018", "Sep 2018", "Oct 2018"],
         datasets: [{
-            label: 'Rides Per Month',
+            label: 'Number of Rides per month',
             data: chartData,
             backgroundColor: [
                 '#ff6000',

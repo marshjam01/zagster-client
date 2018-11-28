@@ -1,5 +1,5 @@
 body {
-    font-family: "HelveticaNeue", "Arial", sans-serif;
+    font-family: "HelveticaNeue", "Times", sans-serif;
     background: white;
     background-position: center top;
     background-image: url("https://i.pinimg.com/originals/be/0a/4e/be0a4e1500127ea8ddfbae0335d14d2f.gif");
@@ -8,6 +8,8 @@ body {
 h1{
     color: rgb(17, 15, 15);
     text-align: center;
+    font-style: italic
+
 } 
 h2{
     color:black;
@@ -16,6 +18,7 @@ h2{
 p{
     color: Black;
     text-align: center;
+    font-weight: bold
 }
 img {
     display: block;
@@ -25,7 +28,7 @@ img {
 }
 .line {
     fill: none;
-    stroke: #ffab00;
+    stroke: #000000;
     stroke-width: 3;
 }
   
